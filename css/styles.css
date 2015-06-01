@@ -1,0 +1,47 @@
+#body_index{
+	background: url('../img/fondo.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+#body_index_seleccion{
+	background: url('../img/fondo.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+#body_index_pg{
+	background: url('../img/background.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+
+#body_aprende_numeros{
+	background: url('../img/fondo_numeros.jpg') no-repeat center fixed;
+	background-size: cover;
+}
+
+.center{
+	float: none;
+	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top_seleccion{
+	margin-top: 20px;
+}
+
+.my_img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.numeros{
+	width: 200px;
+	height: 150px;
+}
+
+.figuras{
+	width: 250px;
+	height: 200px;
+}
+
