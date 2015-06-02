@@ -1,6 +1,7 @@
 #body_index{
-	background: url('../img/fondo.jpg') no-repeat fixed;
-	background-size: cover;
+	/*background: url('../img/fondo.jpg') no-repeat fixed;
+	background-size: cover;*/
+        background: #ecf0f1;
 }
 
 #body_index_seleccion{
@@ -14,15 +15,22 @@
 }
 
 #body_aprende_numeros{
-	background: url('../img/fondo_numeros.jpg') no-repeat center fixed;
-	background-size: cover;
+	//background: url('../img/fondo_numeros.jpg') no-repeat center fixed;
+	//background-size: cover;
+        background: #1abc9c;
+}
+
+#body_aprende_figuras{
+    background: #3498db;
 }
 
 .center{
 	float: none;
-	margin-top: 300px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 50px;
+        background-color: transparent;
+        font-size: 50px;
+        border: 2px solid #fff;       
+        border-radius: 0px;
 }
 
 .top_seleccion{
@@ -43,5 +51,21 @@
 .figuras{
 	width: 250px;
 	height: 200px;
+}
+
+.my_jumbotron{
+    background: url('../img/kids.png') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+}
+
+@media (max-width: 480px) {
+    .center{
+        font-size: 30px;
+    }
+    
+    .my_jumbotron{
+        height: 200px;
+    }
 }
 
