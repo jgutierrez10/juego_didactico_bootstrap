@@ -59,6 +59,72 @@
     height: 350px;
 }
 
+.panel_icon{
+	border-radius: 5px;
+	border: solid 2px black;
+	margin: 5px;
+	padding: 10px;
+	height: 100px;
+}
+
+.panel_operador{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.img_icon{
+	width: 30px;
+	height: 30px;
+}
+
+.contenedor_juego{
+	margin-top: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.panel_operando{
+	border: 1px solid black;
+	border-radius: 25px;
+	margin: 10px;
+	height: 150px;
+}
+
+.img_icon_juego{
+	margin-top: 40px;
+	height: 50px;
+}
+
+.my_badge{
+	font-size: 24px;
+}
+
+.icon_operador{
+	height: 40px;
+	margin: 5px;
+}
+
+.btn_opciones{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	font-size: 32px;
+	margin: 10px;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.btn_opciones:hover{
+   width:100px;
+   height:100px;
+   -webkit-transition:all 1s ease;
+   -moz-transition:all 1s ease;
+   -o-transition:all 1s ease;
+   transition:all 1s ease;
+ }
+
 @media (max-width: 480px) {
     .center{
         font-size: 30px;
