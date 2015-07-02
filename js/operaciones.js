@@ -49,18 +49,29 @@ function generar_op_suma(){
 		for(i=0; i<aleatorio1; i++){
 			$('#panel_op1_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_tomate.png" />');
 		}
+		
+		$('#panel_op1_'+cont_operaciones).append('<br><br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeop1_'+cont_operaciones);
+		$("#badgeop1_"+cont_operaciones).html(aleatorio1);
 
-		$('#panel_sum_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icono_suma.jpeg" />');
+		$('#panel_sum_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icono_suma.png" />');
 
 		for(i=0; i<aleatorio2; i++){
 			$('#panel_op2_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_tomate.png" />');
 		}
+
+		$('#panel_op2_'+cont_operaciones).append('<br><br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeop2_'+cont_operaciones);
+		$("#badgeop2_"+cont_operaciones).html(aleatorio2);
 
 		$('#panel_igual_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icono_igual.png" />');
 
 		for(i=0; i<(aleatorio1 + aleatorio2); i++){
 			$('#panel_opr_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_tomate.png" />');
 		}
+		$('#panel_opr_'+cont_operaciones).append('<br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeopr_'+cont_operaciones);
+		$("#badgeopr_"+cont_operaciones).html(aleatorio1+aleatorio2);
 
 		$(".contenedor_operaciones_suma").append('<hr>');
 
@@ -109,17 +120,29 @@ function generar_op_resta(){
 			$('#panel_op1_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_cereza.png" />');
 		}
 
+		$('#panel_op1_'+cont_operaciones).append('<br><br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeop1_'+cont_operaciones);
+		$("#badgeop1_"+cont_operaciones).html(aleatorio1);
+
 		$('#panel_res_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icono_resta.png" />');
 
 		for(i=0; i<aleatorio2; i++){
 			$('#panel_op2_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_cereza.png" />');
 		}
 
+		$('#panel_op2_'+cont_operaciones).append('<br><br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeop2_'+cont_operaciones);
+		$("#badgeop2_"+cont_operaciones).html(aleatorio2);
+
 		$('#panel_igual_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icono_igual.png" />');
 
 		for(i=0; i<(aleatorio1 - aleatorio2); i++){
 			$('#panel_opr_'+cont_operaciones).prepend('<img class="img_icon" src="../../img/iconos/icon_cereza.png" />');
 		}
+
+		$('#panel_opr_'+cont_operaciones).append('<br><br><p id="tmp_badge" class="text-center numero_op"></p>');
+		$("#tmp_badge").attr('id', 'badgeopr_'+cont_operaciones);
+		$("#badgeopr_"+cont_operaciones).html(aleatorio1-aleatorio2);
 
 		$(".contenedor_operaciones_resta").append('<hr>');
 

@@ -64,7 +64,7 @@
 	border: solid 2px black;
 	margin: 5px;
 	padding: 10px;
-	height: 100px;
+	height: 130px;
 }
 
 .panel_operador{
@@ -123,6 +123,10 @@
    -moz-transition:all 1s ease;
    -o-transition:all 1s ease;
    transition:all 1s ease;
+ }
+
+ .btn_atras{
+ 	width: 100px;
  }
 
 @media (max-width: 480px) {
