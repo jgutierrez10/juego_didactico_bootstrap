@@ -1,0 +1,326 @@
+#body_index_primer{
+	/*background: url('../img/fondo.jpg') no-repeat fixed;
+	background-size: cover;*/
+    background: #ecf0f1;
+}
+
+#body_index_segundo{
+	/*background: url('../img/fondo.jpg') no-repeat fixed;
+	background-size: cover;*/
+    background: #ecf0f1;
+}
+
+#body_index_seleccion{
+	background: url('../img/fondo.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+#body_index_pg{
+	background: url('../img/fondo_figuras.jpg') no-repeat center fixed;
+	background-size: cover;
+	/*background: #fff;*/
+}
+
+#body_index_sg{
+	background: url('../img/fondo_numeros.jpg') no-repeat center fixed;
+	background-size: cover;
+	/*background: #fff;*/
+}
+
+#body_aprende_numeros{
+	//background: url('../img/fondo_numeros.jpg') no-repeat center fixed;
+	//background-size: cover;
+        background: #1abc9c;
+}
+
+#body_aprende_figuras{
+    background: #3498db;
+}
+
+#body_aprende_sumar{
+	background: #fff;
+}
+
+#body_aprende_restar{
+	background: #fff;
+}
+
+#body_juega_sumar{
+	background: #31B0D5;
+}
+
+#body_juega_restar{
+	background: #FCB941;
+}
+
+#body_juega_multiplicar{
+	background: #19B5FE;
+}
+
+#body_juega_mayor_menor{
+	background: #26C281;
+}
+
+.center{
+	float: none;
+	margin-top: 50px;
+    background-color: transparent;
+    font-size: 50px;
+    border: 2px solid #fff;       
+    border-radius: 0px;
+}
+
+.center_comenzar_juego_suma{
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;       
+    border-radius: 0px;
+}
+
+.center_comenzar_juego_suma:hover{
+	color: #31B0D5;
+	background: #fff;
+}
+
+.center_comenzar_juego_resta{
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;       
+    border-radius: 0px;
+}
+
+.center_comenzar_juego_resta:hover{
+	color: #FCB941;
+	background: #fff;
+}
+
+.center_comenzar_juego_multiplicar{
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;       
+    border-radius: 0px;
+}
+
+.center_comenzar_juego_multiplicar:hover{
+	color: #19B5FE;
+	background: #fff;
+}
+
+.center_comenzar_juego_mayor_menor{
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    border: 2px solid #fff;       
+    border-radius: 0px;
+}
+
+.center_comenzar_juego_mayor_menor:hover{
+	color: #26C281;
+	background: #fff;
+}
+
+.top_seleccion{
+	margin-top: 20px;
+}
+
+.my_img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.numeros{
+	width: 200px;
+	height: 150px;
+}
+
+.figuras{
+	width: 250px;
+	height: 200px;
+}
+
+.my_jumbotron_primer{
+    background: url('../img/kids.png') no-repeat center center;
+    background-size: cover;
+    height: 350px;
+}
+
+.my_jumbotron_segundo{
+    background: url('../img/background_index_sg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.panel_icon{
+	border-radius: 5px;
+	border: dashed 2px #7CACFF;
+	margin: 5px;
+	padding: 10px;
+	height: 130px;
+}
+
+.panel_operador{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.img_icon{
+	width: 30px;
+	height: 30px;
+}
+
+.contenedor_juego{
+	margin-top: 50px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.panel_operando_suma{
+	border: dashed 1px #31B0D5;
+	border-radius: 25px;
+	margin: 10px;
+	height: 150px;
+}
+
+.panel_operando_resta{
+	border: dashed 1px #FCB941;
+	border-radius: 25px;
+	margin: 10px;
+	height: 150px;
+}
+
+.panel_operando_multiplicar{
+	border: dashed 1px #19B5FE;
+	border-radius: 25px;
+	margin: 10px;
+	height: 150px;
+}
+
+.panel_operando_mayor_menor{
+	border: dashed 1px #26C281;
+	border-radius: 25px;
+	margin: 10px;
+	height: 150px;
+}
+
+.img_icon_juego{
+	margin-top: 40px;
+	height: 50px;
+}
+
+.my_badge{
+	font-size: 24px;
+}
+
+.icon_operador{
+	height: 40px;
+	margin: 5px;
+}
+
+.btn_opciones{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	font-size: 32px;
+	margin: 10px;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.btn_opciones:hover{
+   width:100px;
+   height:100px;
+   -webkit-transition:all 1s ease;
+   -moz-transition:all 1s ease;
+   -o-transition:all 1s ease;
+   transition:all 1s ease;
+ }
+
+ .btn_atras{
+ 	width: 100px;
+ }
+
+ .contenedor_juega{
+ 	margin-top: 250px;
+ }
+
+ .signo_suma{
+ 	border-radius: 100%;
+ 	color: #fff;
+ 	background: #31B0D5;
+ 	font-size: 100px;
+ 	font-weight: bold;
+ 	overflow: hidden;
+ }
+
+ .signo_resta{
+ 	border-radius: 100%;
+ 	color: #fff;
+ 	background: #FCB941;
+ 	font-size: 100px;
+ 	font-weight: bold;
+ 	overflow: hidden;
+ }
+
+ .signo_multiplicar{
+ 	border-radius: 100%;
+ 	color: #fff;
+ 	background: #19B5FE;
+ 	font-size: 100px;
+ 	font-weight: bold;
+ 	overflow: hidden;
+ }
+
+ .signo_mayor_menor{
+ 	border-radius: 100%;
+ 	color: #fff;
+ 	background: #26C281;
+ 	font-size: 100px;
+ 	font-weight: bold;
+ 	overflow: hidden;
+ }
+
+ .panel_numero{
+ 	padding-top: 10px;
+ 	border-radius: 100%;
+ 	height: 150px;
+ 	color: #fff;
+ 	background: #26C281;
+ 	font-size: 80px;
+ }
+
+ .panel_faltante{
+ 	border-radius: 100%;
+ 	color: #fff;
+ 	background: #1abc9c;
+ 	font-size: 100px;
+ 	font-weight: bold;
+ 	overflow: hidden;
+ }
+
+ .img_index_sg{
+ 	width: 100%;
+ 	height: 150px;
+ }
+
+.titulo_superior{
+	font-family: Comic;
+	font-size: 48px;
+}
+
+@media (max-width: 480px) {
+    .center{
+        font-size: 30px;
+    }
+    
+    .my_jumbotron{
+        height: 200px;
+    }
+}
+
